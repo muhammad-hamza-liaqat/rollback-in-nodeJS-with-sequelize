@@ -1,7 +1,7 @@
 const account = require("../model/accountModel");
 const transection = require("../model/transectionModel");
 const sequelize = require("../database/connection")
-// record 1
+// record 1 of account
 account.create({
   account_number: "01001",
   account_type: "current account",
